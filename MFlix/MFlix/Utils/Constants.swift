@@ -7,6 +7,18 @@
 //
 
 import Foundation
+import UIKit
 
-struct Constants {
+enum Constants {
+    static let favoriteString = "Favorite"
+    static let favoriteIcon = UIImage(systemName: "star.fill")
+    static let favoriteFilled = UIImage(systemName: "star.fill")
+    
+    static let searchString = "Search"
+    static let searchIcon = UIImage(systemName: "magnifyingglass")
+    static let searchFilled = UIImage(systemName: "magnifyingglass")
+    
+    static let watchNowString = "Watch Now"
+    static let watchNowIcon = UIImage(systemName: "tv.fill")
+    static let watchNowFilled = UIImage(systemName: "tv.fill")
 }
